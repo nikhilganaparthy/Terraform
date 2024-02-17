@@ -1,1 +1,6 @@
-
+terraform init
+terraform plan
+terraform apply
+terraform show   ->  shows the details of resources that were created.
+terraform destroy
+terraform -var-file variables.tfvars  -> when we don't follow naming convention while calling the variables file while applying 
