@@ -1,6 +1,6 @@
-terraform init
-terraform plan
-terraform apply
+terraform init  -> installs the required pluggins from the terraform registry.
+terraform plan  -> drafts the plan what is going to create.
+terraform apply -> creates the resources at the target. 
 terraform show   ->  shows the details of resources that were created.
-terraform destroy
+terraform destroy -> destroys the resources which are created with that main.tf file.
 terraform -var-file variables.tfvars  -> when we don't follow naming convention while calling the variables file while applying 
